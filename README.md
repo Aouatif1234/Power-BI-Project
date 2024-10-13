@@ -23,12 +23,12 @@ Un des KPIs dans ce projet mesure le pourcentage de professionnels des données 
 
 ### Formule DAX
 
-```DAX
+DAX
 KPI_Satisfaction_High = 
 DIVIDE(
     COUNTROWS(FILTER('Data Professional Survey', 'Data Professional Survey'[Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)] > 4)),
     COUNTROWS('Data Professional Survey')
-)```
+)
 
 ## File Description
 
