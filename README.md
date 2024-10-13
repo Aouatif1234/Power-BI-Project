@@ -17,6 +17,18 @@ The report provides insights into:
 - The dataset was cleaned by removing missing and inconsistent entries.
 - The **average salary** was computed for each respondent based on the available salary data provided in the survey.
 
+## Calcul du KPI - Satisfaction au Travail
+
+Un des KPIs dans ce projet mesure le pourcentage de professionnels des données satisfaits de leur équilibre travail/vie personnelle. La formule DAX suivante est utilisée pour calculer ce KPI :
+
+### Formule DAX
+
+```DAX
+KPI_Satisfaction_High = 
+DIVIDE(
+    COUNTROWS(FILTER('Data Professional Survey', 'Data Professional Survey'[Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)] > 4)),
+    COUNTROWS('Data Professional Survey')
+)
 
 ## File Description
 
