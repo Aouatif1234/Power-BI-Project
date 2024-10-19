@@ -48,3 +48,16 @@ The following visualizations are included in the report:
 - **Maps**: Geographic distribution of respondents.
 - **Tables**: Salary breakdowns and factors affecting job preferences.
 
+This is same image shows the visualizations of the dashboard:
+
+![visualisation1](https://github.com/user-attachments/assets/a7efee26-028f-4440-8884-9672b0997574)
+
+
+
+
+![visualisation2](https://github.com/user-attachments/assets/740b094a-6214-45d0-aeb8-6f717b351ca0)
+
+
+
+
+
